@@ -1,11 +1,91 @@
+
 .App {
   text-align: center;
 }
-
+.App nav {
+  background-color: rgb(49, 46, 52);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.panel {
+  min-height: 350px;
+  padding: 2em 0;
+}
+.hr {  
+  --lnw: 3px;
+  --brd: #eee;
+  --alpha-brd: 1;
+  transform-origin: center 1.5px;
+  height: 5px;
+  width: 38px;
+  position: relative;
+  margin: 0px 0px 15px calc((100% - 980px) * 0.5);
+  left: 470px;
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: start;
+  align-self: start;
+  background-color: #555;
+}
+.title {
+  font-family: 'Syncopate', sans-serif;
+  text-transform: uppercase;
+}
+.full-width {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+.text-bold {
+  font-weight: bold;
+}
+header nav img.brand-logo {
+  display: none;
+  height: 56px;
+}
+header img.logo {
+  margin-top: 4px;
+  padding: 0 5px;
+  height: 56px;
+}
+
+header nav .main-menu {
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -5em;
+  visibility: hidden;
+}
+
+
+.spotlight {
+  height: 500px;
+  padding-top: 3em;
+}
+.counseling {
+  padding: 2em 0;
+  background-color: #B94D30;
+  color: #efefef;
+}
+.counseling .card {
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+}
+.counseling .card .card-content {
+  padding: 0;
+}
+.ourwork {
+  min-height: 550px;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,17 +93,26 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-loader {
+  background-color: #040015;
   min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9000;
 }
-
+#dialogs {
+  z-index: 8000;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +124,93 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#loadingIndicator {
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 10001;
+}
+.loading-bg #loadingIndicator {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+body #loadingIndicator .loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  z-index: 1000;
+}
+body #loadingIndicator .preloader-wrapper {
+  position: relative;
+  left: -35%;
+}
+body.loading-bg #loadingIndicator,
+body.loading #loadingIndicator {
+  display: block;
+}
+
+.overlay .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  display: none;
+}
+.overlay .preloader-wrapper {
+  position: relative;
+  left: -35%;
+}
+.overlay.loading .loader {
+  display: block;
+}
+#floatingActionMenu {
+  position: fixed;
+  right: 13px;
+  bottom: 23px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 2000;
+}
+#floatingActionMenu li a {
+  background-color: #685eee;
+  color: #fff;
+}
+
+/* ------------------------------------------------------------------- 
+  * responsive:
+  * 
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 400px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    header nav .main-menu.center {
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 21px;
+  }
+  .counseling .card {
+  }
+  .counseling .card .card-content {
+    padding: 24px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

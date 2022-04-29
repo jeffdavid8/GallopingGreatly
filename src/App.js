@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+//import React, { useState, useEffect } from 'react';
 import './App.css';
+import $ from 'jquery'
+import M from 'materialize-css'
+import Loader from './components/Loader';
+import Header from './components/Header';
+import Sidenav from './components/Sidenav';
+import FloatingActionMenu from './components/FloatingActionMenu';
+import Dialogs from './components/Dialogs';
+import SearchIndicator from './components/SearchIndicator';
+import Spotlight from './components/home-page/Spotlight';
+import Counseling from './components/home-page/Counseling';
+import OurWork from './components/home-page/OurWork';
+import About from './components/home-page/About';
+import Contact from './components/home-page/Contact';
+import PhotoGrid from './components/home-page/PhotoGrid';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Loader />
+      <Sidenav />
+      <Header />
+
+      <Spotlight />
+      <Counseling />
+      <OurWork />
+      <PhotoGrid />
+      <About />
+      <Contact />
+
+      <FloatingActionMenu />
+      <Dialogs />
+      <SearchIndicator />
     </div>
   );
 }
 
+ 
 export default App;
