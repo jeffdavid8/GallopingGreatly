@@ -1,4 +1,28 @@
+import React, { useState } from "react";
+
 const Contact = () => {
+  const [status, setStatus] = useState("Submit");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+    const { name, email, message } = e.target.elements;
+    let details = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+    let response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
+  };
+  
   return (
     <div className="contact grey darken-1">
         
@@ -6,7 +30,7 @@ const Contact = () => {
 
       <div className="container grey lighten-3 panel">
         <div className="row">
-          <h4 className="">REQUEST A SESSION</h4>
+          <h4 className="">Contact Us</h4>
           <div className="hr"></div>
         </div>
         <div className="row">

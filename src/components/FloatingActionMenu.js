@@ -80,6 +80,16 @@ const FloatingActionMenu = () => {
               <i className="material-icons">call</i>
             </a>
           </li>
+          <li>
+            <a
+              title="Navigate"
+              target="_blank"
+              href="https://www.google.com/maps/dir//9164+E+825+S,+Upland,+IN+46989/@40.4321404,-85.5011047,17z"
+              className="btn-floating blue lighten-3"
+            >
+              <i className="material-icons">navigation</i>
+            </a>
+          </li>
         </ul>
 
     </div>

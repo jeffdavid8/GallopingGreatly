@@ -46,7 +46,7 @@ const Counseling = () => {
           <div className="col m2  hide-on-small"></div>
         </div>
         <div className="row center-align">
-          <p>*contact below for pricing*</p>
+          <p><a href="#Contact" className="waves-effect waves-light btn black">Request Pricing</a></p>
         </div>
       </div>
     </div>

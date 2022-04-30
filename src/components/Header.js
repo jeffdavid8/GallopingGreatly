@@ -11,8 +11,17 @@ const Header = () => {
             <li>
               <a href="#!" data-target="slide-out" className="sidenav-trigger main-menu-btn show-on-small"><i className="material-icons">menu</i></a>
             </li>
-            <li className="">
+            <li>
               <img className="logo hide-on-med-and-down"  src="images/logo-96.png" />
+            </li>
+            <li>
+                <a
+                title="Navigate"
+                target="_blank"
+                href="https://www.google.com/maps/dir//9164+E+825+S,+Upland,+IN+46989/@40.4321404,-85.5011047,17z"
+              >
+                <i className="material-icons">navigation</i>
+              </a>
             </li>
 
 
@@ -31,7 +40,6 @@ const Header = () => {
               <li>
                 <a target="_blank" href="https://instagram.com/gallopgreatly/"><i className="fab fa-instagram"></i></a>
               </li>
-
 
             </ul>
 
