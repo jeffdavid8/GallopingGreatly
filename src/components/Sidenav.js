@@ -29,7 +29,7 @@ const Sidenav = () => {
       </li>
       <li className="no-padding"></li>
       <li className="no-padding">
-        <a className="resetStateBtn" href="/">
+        <a className="resetStateBtn" href={window.location.href}>
           <i className="material-icons">refresh</i>Reload
         </a>
       </li>
