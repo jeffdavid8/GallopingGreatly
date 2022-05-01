@@ -34,8 +34,10 @@ const Contact = () => {
           <div className="hr"></div>
         </div>
         <div className="row">
-            <p className="">**Appointments are by request, and availability is subject to change.</p>
+          <div className="col">
+            <p className="">** Appointments are by request, and availability is subject to change.</p>
             <p>Please contact us to book an appointment.&nbsp;</p>
+          </div>
         </div>
         <div className="row center-align">
           <form id="ContactForm" name="ContactForm" className="left-align" style={{width: "55%", margin: "0 auto"}}>
