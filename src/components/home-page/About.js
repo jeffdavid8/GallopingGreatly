@@ -10,6 +10,9 @@ const About = () => {
           <div className="col s10">
             <h5>Why Horse Therapy?</h5>
             <div className="hr"></div>
+            
+            <p>&nbsp;</p>
+            
             <p><span>Our similarities with horses create an avenue for us to connect with them on a deep, emotional level, allowing us to grow and heal in ways that are otherwise difficult.</span></p>
 
             <p>&nbsp;</p>
