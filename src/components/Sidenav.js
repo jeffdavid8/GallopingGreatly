@@ -28,11 +28,6 @@ const Sidenav = () => {
         <hr />
       </li>
       <li className="no-padding"></li>
-      <li className="no-padding">
-        <a className="resetStateBtn" href={window.location.href}>
-          <i className="material-icons">refresh</i>Reload
-        </a>
-      </li>
     </ul>
   );
 };
