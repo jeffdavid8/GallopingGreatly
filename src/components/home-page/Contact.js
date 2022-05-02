@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="row center-align">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBZ6Ot4WP0XDYyiieWitIG5E0wfXvFEv2XdGHN9dBpQ1F-ag/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBZ6Ot4WP0XDYyiieWitIG5E0wfXvFEv2XdGHN9dBpQ1F-ag/viewform?embedded=true" width="100%" height="947" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
         </div>
         <div className="row status center-align"></div>
