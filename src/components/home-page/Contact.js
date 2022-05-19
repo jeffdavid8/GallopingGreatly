@@ -35,12 +35,13 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col s12">
+            <p className="">** This form is not to be used for emergencies.  If you are experiencing a medical emergency, please dial 911 or go to your local emergency room.</p>
             <p className="">** Appointments are by request, and availability is subject to change.</p>
             <p>Please contact us to book an appointment.&nbsp;</p>
           </div>
         </div>
         <div className="row center-align">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBZ6Ot4WP0XDYyiieWitIG5E0wfXvFEv2XdGHN9dBpQ1F-ag/viewform?embedded=true" width="100%" height="947" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBZ6Ot4WP0XDYyiieWitIG5E0wfXvFEv2XdGHN9dBpQ1F-ag/viewform?embedded=true" width="100%" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
         </div>
         <div className="row status center-align"></div>

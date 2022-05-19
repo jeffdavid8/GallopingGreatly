@@ -12,7 +12,7 @@ const Header = () => {
               <a href="#!" data-target="slide-out" className="sidenav-trigger main-menu-btn show-on-small"><i className="material-icons">menu</i></a>
             </li>
             <li>
-              <img className="logo hide-on-med-and-down"  src="images/logo-96.png" />
+              <img className="logo hide-on-med-and-down"  src={process.env.PUBLIC_URL + '/images/logo-96.png'} />
             </li>
             <li>
                 <a

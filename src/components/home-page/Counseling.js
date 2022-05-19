@@ -14,7 +14,7 @@ const Counseling = () => {
           <div className="col s3 m2">
             <div className="card">
               <div className="card-image">
-                <img src="images/svgexport-2.png" />
+                <img src={process.env.PUBLIC_URL + "/images/svgexport-2.png"} />
               </div>
               <div className="card-content">
                 <p>Group</p>
@@ -25,7 +25,7 @@ const Counseling = () => {
           <div className="col s3 m2">
             <div className="card">
               <div className="card-image">
-                <img src="images/svgexport-3.png" />
+                <img src={process.env.PUBLIC_URL + "/images/svgexport-3.png"} />
               </div>
               <div className="card-content">
                 <p>Family</p>
@@ -36,7 +36,7 @@ const Counseling = () => {
           <div className="col s3 m2">
             <div className="card">
               <div className="card-image">
-                <img src="images/svgexport-4.png" />
+                <img src={process.env.PUBLIC_URL + "/images/svgexport-4.png"} />
               </div>
               <div className="card-content">
                 <p>Individual</p>
