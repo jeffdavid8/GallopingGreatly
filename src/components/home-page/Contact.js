@@ -84,7 +84,7 @@ const Contact = () => {
           <div className="col s12 m6">
             <h5 className="font_8"><span>OPERATING HOURS:</span></h5>
 
-            <p className="font_8"><span>Mon - Fri: 8am - 4pm</span></p>
+            <p className="font_8"><span>Mon - Fri: By appointment only</span></p>
 
             <p className="font_8"><span>​​Saturday: closed</span></p>
 
