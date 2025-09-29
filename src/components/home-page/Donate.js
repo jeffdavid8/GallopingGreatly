@@ -15,13 +15,13 @@ const Donate = () => {
           <div className="col s12 m6 l6 center">
             <h6>April 12, 1977 - September 27, 2025</h6>
             <p>&nbsp;</p>
-            <a target="_blank" href="https://www.paypal.com/qrcodes/managed/44a56651-dd06-41c0-8477-29ac0d3ff7d0?utm_source=consapp_download"><img width="300" src={process.env.PUBLIC_URL + '/images/Carrie-donate.png'} /></a>
+            <a target="_blank" href="https://www.paypal.com/qrcodes/managed/44a56651-dd06-41c0-8477-29ac0d3ff7d0?utm_source=consapp_download"><img width="200" src={process.env.PUBLIC_URL + '/images/Carrie-donate.png'} /></a>
             <br/>
             (Click, tap, or scan to make a donation)
           </div>
         </div>
 
-        <div className="row left">
+        <div className="row left-align">
           <p>Carrie F. Norton, 48</p>
           <p>She is the wife of Jim Norton</p>
           <p>She is the mother of Tessa Norton</p>
