@@ -43,15 +43,15 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "description": "<h3>Galloping Greatly</h3> <a target=\"_blank\" href=\"https://virtualimmortal.github.io/GallopingGreatly/\">https://virtualimmortal.github.io/GallopingGreatly/</a>",
+  "description": "<h3>Galloping Greatly</h3> <a target=\"_blank\" href=\"https://jeffdavid8.github.io/GallopingGreatly/\">https://jeffdavid8.github.io/GallopingGreatly/</a>",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Virtualimmortal/GallopingGreatly.git"
+    "url": "git+https://github.com/jeffdavid8/GallopingGreatly.git"
   },
   "author": "jeff david",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Virtualimmortal/GallopingGreatly/issues"
+    "url": "https://github.com/jeffdavid8/GallopingGreatly/issues"
   }
 }
