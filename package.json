@@ -1,0 +1,57 @@
+{
+  "homepage": "https://jeffdavid8.github.io/GallopingGreatly",
+  "name": "gallopinggreatly",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "jquery": "^3.2.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "description": "<h3>Galloping Greatly</h3> <a target=\"_blank\" href=\"https://jeffdavid8.github.io/GallopingGreatly/\">https://jeffdavid8.github.io/GallopingGreatly/</a>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffdavid8/GallopingGreatly.git"
+  },
+  "author": "jeff david",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffdavid8/GallopingGreatly/issues"
+  }
+}
