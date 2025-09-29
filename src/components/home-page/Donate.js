@@ -107,6 +107,14 @@ const Donate = () => {
             Indiana. Family and friends may gather for visitation from 3:00-6:00
             p.m. prior to the service.
           </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
         </div>
       </div>
     </div>
