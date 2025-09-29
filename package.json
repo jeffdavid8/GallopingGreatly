@@ -1,9 +1,11 @@
 {
-  "homepage": "https://gallopinggreatly.org",
+  "homepage": "https://jeffdavid8.github.io/GallopingGreatly",
   "name": "gallopinggreatly",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/pluginutils": "^5.3.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
