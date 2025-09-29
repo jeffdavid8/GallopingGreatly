@@ -12,7 +12,7 @@ import Spotlight from './components/home-page/Spotlight';
 import Counseling from './components/home-page/Counseling';
 import OurWork from './components/home-page/OurWork';
 import About from './components/home-page/About';
-import Donate from './components/home-page/Donate';
+import Donate from './components/home-page/Donate'; // New
 import Contact from './components/home-page/Contact';
 import PhotoGrid from './components/home-page/PhotoGrid';
 
