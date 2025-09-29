@@ -29,6 +29,7 @@ function App() {
       <OurWork />
       <PhotoGrid />
       <About />
+      <Donate />
       <Contact />
 
       <FloatingActionMenu />
