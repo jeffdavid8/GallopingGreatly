@@ -21,7 +21,7 @@ const Donate = () => {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row left">
           <p>Carrie F. Norton, 48</p>
           <p>She is the wife of Jim Norton</p>
           <p>She is the mother of Tessa Norton</p>
