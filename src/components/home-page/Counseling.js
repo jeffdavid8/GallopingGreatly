@@ -2,7 +2,7 @@ const Counseling = () => {
   return (
     <div className="counseling">
         
-      <a className="anchor" name="Counseling-Sessions" />
+      <a className="anchor" id="Counseling-Sessions" name="Counseling-Sessions" />
 
       <div className="container center-align">
         <div className="row">

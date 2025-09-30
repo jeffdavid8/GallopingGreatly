@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="about panel grey darken-2">
         
-      <a className="anchor" name="About" />
+      <a className="anchor" id="About" name="About" />
 
       <div className="container white">
         <div className="row">

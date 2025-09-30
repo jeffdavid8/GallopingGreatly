@@ -2,7 +2,7 @@ const Donate = () => {
   return (
     <div className="donate">
       <div className="container">
-        <a className="anchor" name="Donate" />
+        <a className="anchor" id="Donate" name="Donate" />
 
         <div className="row center">
             <h5>In Loving Memory Of Carrie F. David Norton</h5>

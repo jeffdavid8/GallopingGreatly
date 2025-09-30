@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <div className="contact grey darken-1">
         
-      <a className="anchor" name="Contact" />
+      <a className="anchor" id="Contact" name="Contact" />
 
       <div className="container grey lighten-3 panel">
         <div className="row">

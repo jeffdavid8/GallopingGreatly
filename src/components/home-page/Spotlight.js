@@ -14,7 +14,7 @@ const Spotlight = () => {
         
         <div className="container">
 
-          <a className="anchor" name="Home" />
+          <a className="anchor" id="Home" name="Home" />
 
           <div className="row center-align hide-on-med-and-down">
             <img className="logo" width="250" src="images/logo.png" alt="" />

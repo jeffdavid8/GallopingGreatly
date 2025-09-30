@@ -3,7 +3,7 @@ const OurWork = () => {
     <div className="ourwork panel">
       <div className="container">
 
-        <a className="anchor" name="Our-Work" />
+        <a className="anchor" id="Our-Work" name="Our-Work" />
 
         <div className="row">
           <h5>OUR WORK</h5>

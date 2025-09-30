@@ -2,7 +2,6 @@
 import './App.css';
 import $ from 'jquery'
 import M from 'materialize-css'
-import Loader from './components/Loader';
 import Header from './components/Header';
 import Sidenav from './components/Sidenav';
 import FloatingActionMenu from './components/FloatingActionMenu';
@@ -20,7 +19,6 @@ function App() {
 
   return (
     <div className="App">
-      <Loader />
       <Sidenav />
       <Header />
 
